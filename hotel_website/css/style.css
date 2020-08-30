@@ -272,6 +272,10 @@ p {
   outline: none;
   border-color: #f7c08a;
 }
+
+#contact-form button {
+  margin-bottom: 20px;
+}
 /* Footer */
 
 #main-footer {

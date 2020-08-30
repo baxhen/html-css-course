@@ -253,11 +253,18 @@
               <form action="#" class="callback-form">
                 <div class="form-control">
                   <label for="name">Name</label>
-                  <input type="text" name="name" id="name" placeholder="Name" />
+                  <input
+                    autocomplete="off"
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Enter your name"
+                  />
                 </div>
                 <div class="form-control">
                   <label for="email">Email</label>
                   <input
+                    autocomplete="off"
                     type="text"
                     name="email"
                     id="email"
@@ -267,13 +274,20 @@
                 <div class="form-control">
                   <label for="phone">Phone</label>
                   <input
+                    autocomplete="off"
                     type="text"
                     name="phone"
                     id="phone"
                     placeholder="Enter phone"
                   />
                 </div>
-                <input type="submit" value="Send" id="submit" class="btn" />
+                <input
+                  autocomplete="off"
+                  type="submit"
+                  value="Send"
+                  id="submit"
+                  class="btn"
+                />
               </form>
             </div>
           </div>

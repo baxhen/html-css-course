@@ -250,4 +250,8 @@ img {
   .team img {
     width: 70;
   }
+
+  .hero.blog .content {
+    padding-top: 70px;
+  }
 }
